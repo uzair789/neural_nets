@@ -1,0 +1,21 @@
+date 27th sept		time 6pm
+
+objective: 5f
+
+searching for a big network. testing over weight decay values to see if it helps performance over large units in teh hidden layer.
+
+params :
+
+learning_rates = [0.5];%[0.3,0.5,0.7];
+momentum = [0.9];
+reg = [0,0.001,0.004];%,0.001,0.004];%
+P = [0.5]; % p = 0 will shut drop out and p = 0.5 will turn it on
+NUM_epochs = [1000];
+hidden_layer_sizes = [1000];
+
+
+
+best hyperparameters
+Best hyperparameters for expCount = 1, Test accuracy = 90.30 , Test loss = 0.5296, Train accuracy = 97.40, Train loss = 0.3308, val accuracy = 91.30, val loss = 0.4816
+lr = 0.500 | momentum = 0.9000 | lambda = 0.0010 | Dropout = 0.50 | numEpochs = 1000 | hiddenLayerSize = 1000
+Elapsed time is 1369.331549 seconds.

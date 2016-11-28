@@ -1,0 +1,15 @@
+date 27th sept			time 3 36
+
+objective: to see if dropout gives a better weight visualization.
+
+params used :
+
+learning_rates = [0.5];%[0.3,0.5,0.7];
+momentum = [0.9];
+reg = [0];%,0.001,0.004];%
+P = [0.5]; % p = 0 will shut drop out and p = 0.5 will turn it on
+NUM_epochs = [500,1000];%500,1000]; 
+hidden_layer_sizes = [100];%[200,300,500];
+
+
+weights look very white ...not a good visual

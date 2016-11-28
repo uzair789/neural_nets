@@ -1,0 +1,16 @@
+Date : 26th sept   TIme : 9 pm
+
+
+ran this for 5d
+
+- Covered all the hyper parameter search in 5 d
+
+
+Best values obtained for exp count 46.
+
+params
+
+Best hyperparameters for expCount = 46, Test accuracy = 91.00 , Test loss = 0.3552, Train accuracy = 100.00, Train loss = 0.0109, val accuracy = 91.70, val loss = 0.2910
+
+lr = 0.500 | momentum = 0.9000 | lambda = 0.0000 | Dropout = 0.00 | numEpochs = 500 | hiddenLayerSize = 200
+>> 

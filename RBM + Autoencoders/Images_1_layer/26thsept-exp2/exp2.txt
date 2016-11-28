@@ -1,0 +1,21 @@
+
+26th sept   exp 2    time 9:45pm
+
+objective:to test hidden layers 200 and 500 with dropout.found lr = 0.5 and hidden 200 is good from count 46 exp 1.
+
+current params:
+
+learning_rates = [0.5];
+momentum = [0.9];
+reg = [0];%
+P = [1]; % p = 0 will shut drop out
+NUM_epochs = [500]; 
+hidden_layer_sizes = [200,500];
+
+results:
+
+
+best hyperparameters
+Best hyperparameters for expCount = 0, Test accuracy = 91.83 , Test loss = 0.3107, Train accuracy = 99.87, Train loss = 0.0137, val accuracy = 92.40, val loss = 0.2413
+lr = 0.500 | momentum = 0.9000 | lambda = 0.0000 | Dropout = 0.50 | numEpochs = 500 | hiddenLayerSize = 200
+>> 

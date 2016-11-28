@@ -1,0 +1,12 @@
+date 27rh sept     TIme 1:14pm
+
+objective : to train the net  6 times with reasonable lr -- this exp solves 5 a,b c
+
+params :
+
+learning_rates = [0.5,0.5,0.5,0.5,0.5,0.5];%[0.3,0.5,0.7];
+momentum = [0];
+reg = [0];%,0.001,0.004];%
+P = [0]; % p = 0 will shut drop out and p = 0.5 will turn it on
+NUM_epochs = [500];%500,1000]; 
+hidden_layer_sizes = [100];%[200,300,500];

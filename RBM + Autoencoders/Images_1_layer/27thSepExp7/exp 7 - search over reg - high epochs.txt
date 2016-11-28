@@ -1,0 +1,13 @@
+27th sep		8 pm
+
+objective : trying to see the effect of lambda over high epochs
+
+params:
+
+
+learning_rates = [0.5];%[0.3,0.5,0.7];
+momentum = [0.9];
+reg = [0.01,0.1];%,0.001,0.004];%
+P = [0.5]; % p = 0 will shut drop out and p = 0.5 will turn it on
+NUM_epochs = [1000,3000];
+hidden_layer_sizes = [250];%[200,300,500];

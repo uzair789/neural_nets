@@ -1,0 +1,32 @@
+
+date 26th sept   Exp3       time 10pm
+
+
+objective: Searching the space to see the effect of regularizer and dropout together on hidden layer sizes of 200,300,500. Also testing lr and epochs for over traingin..
+
+params used:
+
+
+learning_rates = [0.3,0.5,0.7];
+momentum = [0.9];
+reg = [0,0.001,0.004];%
+P = [0,0.5]; % p = 0 will shut drop out
+NUM_epochs = [500,1000]; 
+hidden_layer_sizes = [200,300,500];
+
+Result:
+
+
+best hyperparameters
+Best hyperparameters for expCount = 46, Test accuracy = 92.60 , Test loss = 0.3444, Train accuracy = 100.00, Train loss = 0.0036, val accuracy = 93.50, val loss = 0.2420
+lr = 0.500 | momentum = 0.9000 | lambda = 0.0000 | Dropout = 0.50 | numEpochs = 1000 | hiddenLayerSize = 300
+>> 
+
+May be try for 200 epochs .
+bad result...test accuracy 91
+
+hidden layer 250 gave 92.7 accuracy....exp count 8 in the main image folder -- same params as above
+
+ran another test for lr = 0.3, hidden 250 -- 92.3
+
+tried data normalzing..didnt work...very bad resuts..check mean subtraction folder

@@ -1,0 +1,15 @@
+27th sep		2:18pm
+
+running this for 5d
+
+
+params
+
+learning_rates = [0.1,0.01,0.2,0.5];%[0.3,0.5,0.7];
+momentum = [0,0.5,0.9];
+reg = [0];%,0.001,0.004];%
+P = [0]; % p = 0 will shut drop out and p = 0.5 will turn it on
+NUM_epochs = [500];%500,1000]; 
+hidden_layer_sizes = [100];%[200,300,500];
+
+

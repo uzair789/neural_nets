@@ -1,0 +1,26 @@
+-To run the script for RBM, run RBM_main.m
+
+-To run the script for Autoencoder and denoisy autoencoder, run the script Auto_main.m
+	- Please note that the same script is used for autoencoders and denoisy autoencoders. To run for autoencoders, set the value of p in the 
+	  'Auto_main.m' to 1 and to run for denoisy auto encoders, set p = 0.5 in the same script.
+
+
+
+- To run the oneLayerNetwork, use the command,
+
+	OneLayerNetwork(pretraining_type,W,b,plot_count,epochs)
+		
+	where :
+		pretraining_type is 'RBM' or 'Autoencoder' or 'Denoisy Autoencoder'
+		W is pretrained initialization for the network
+		b is the pretrained bias for the network
+		plot_count is just some number so that all the plots from the same experiment are grouped together. 
+		plot_count can be 1,2 or any integer number
+		epochs is the number of epochs for training the neural network.
+
+
+- to sample from the model and see the results of the RBM network, use the script 'sampling.m' 
+	
+			sampling(W,b,c,'K steps for gibbs sampling')
+		where:
+			W,b,c are the trained weights and bias from the RBM training
