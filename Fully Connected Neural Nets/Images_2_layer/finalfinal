@@ -1,0 +1,2 @@
+Best hyperparameters for expCount = 0, Test accuracy = 12.90 , Test loss = 2.3020, Test error = 87.1000, Train accuracy = 15.40, Train loss = 2.3020 , Train error = 84.6000, val accuracy = 15.30, val loss = 2.3020, val error = 84.7000
+lr = 0.500 | momentum = 0.9000 | lambda = 0.0000 | Dropout1 = 0.50 | Dropout2 = 0.50 | numEpochs = 300 | hiddenLayer1Size = 300 | hiddenLayer2Size = 500 
